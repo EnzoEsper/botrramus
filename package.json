@@ -2,11 +2,18 @@
   "name": "perramus",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
+  "dependencies": {
+    "typescript": "^4.1.2"
+  },
   "devDependencies": {
     "@playwright/test": "^1.47.1",
     "@types/node": "^22.5.5"
